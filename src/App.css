@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.main-container {
+  display: flex;
+}   
+
+.main-left-container, .main-right-container {
+  width: 50%;
+  height: 100vh;
+}
+.main-left-container {
+  background-image: url('./images/bg-image.jpg');
+  background-position: center;
+}
+
+.main-right-container {
+  display: flex;
+  justify-content: center;  
+  align-items: center;     
+  flex-direction: column;
+}
+
+.text-box {
+  width: 55%; 
+  padding: 25px;
+  border: 2px solid silver;
+  border-radius: 8px;
+  border-color: #9D9DF8;
+  margin-bottom: 15px;
+}

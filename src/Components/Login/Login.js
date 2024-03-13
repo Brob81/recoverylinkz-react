@@ -1,7 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import './Login.css';
+import appleLogin from '../../images/login-apple.png';
+import facebookLogin from '../../images/login-facebook.png';
+import googleLogin from '../../images/login-google.png';
 
-function App() {
+function Login() {
   return (
     <div className="App">
       <div class="main-container">
@@ -18,9 +20,9 @@ function App() {
           <div class="login-button">Login</div>
           <div class="register-now">Not a member? Register Now</div>
           <div class="social-media-login">
-            <img src="./images/login-apple.png"/>
-            <img src="./images/login-facebook.png"/>
-            <img src="./images/login-google.png"/>
+            <img src={appleLogin}/>          
+            <img src={facebookLogin}/>          
+            <img src={googleLogin}/>          
           </div>
         </div>
       </div>
@@ -28,6 +30,6 @@ function App() {
   );
 }
 
-export default App;
+export default Login;
 
 

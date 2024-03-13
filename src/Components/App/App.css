@@ -42,13 +42,19 @@
   color: #333;
 }   
 
-.main-left-container, .main-right-container {
-  width: 50%;
+.main-left-container {
+  width: 65%;
+  height: 100vh;
+}
+
+.main-right-container {
+  width: 35%;
   height: 100vh;
 }
 .main-left-container {
-  background-image: url('./images/bg-image.jpg');
+  background-image: url('../../images/bg-image.jpg');
   background-position: center;
+  background-size: cover;
 }
 
 .main-right-container {
@@ -100,4 +106,10 @@
 
 .social-media-login {
   margin-top:40px;
+}
+
+.social-media-login img {
+  margin-left: 5px; 
+  margin-right: 5px; 
+  cursor: pointer;
 }

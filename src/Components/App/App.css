@@ -77,14 +77,29 @@
   font-weight: bold;
 }
 
+.text-box-container {
+  width: 55%;
+  position: relative;
+  text-align: left;
+}
+
+.text-box-title {
+  position: absolute;
+  top: -12px; 
+  left: 10px; 
+  display: inline-block;
+  background-color: #fff;
+  padding: 5px; 
+}
+
 .text-box {
-  width: 55%; 
+  width: 100%; 
   padding-top: 25px;
   padding-bottom: 25px;
   border: 2px solid silver;
   border-radius: 8px;
   border-color: #9D9DF8;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 

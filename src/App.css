@@ -39,6 +39,7 @@
 
 .main-container {
   display: flex;
+  color: #333;
 }   
 
 .main-left-container, .main-right-container {
@@ -57,11 +58,46 @@
   flex-direction: column;
 }
 
+.greeting-container {
+  margin-bottom: 100px;
+}
+.greeting {
+  font-weight: bold;
+}
+.forgot-password {
+  text-align: right;
+  width: 55%; 
+  color: #5e5e9f;
+  font-weight: bold;
+}
+
 .text-box {
   width: 55%; 
-  padding: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   border: 2px solid silver;
   border-radius: 8px;
   border-color: #9D9DF8;
   margin-bottom: 15px;
+}
+
+.login-button {
+  color: #fff;
+  margin-top: 40px;
+  width: 55%; 
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 8px;
+  border-color: #9D9DF8;
+  background: linear-gradient(180deg, #9D9DF8 -29.65%, #6566E5 100%);
+  box-shadow: 0px 12px 40px rgba(86, 83, 255, 0.12);
+  cursor: pointer;
+}
+
+.register-now {
+  margin-top: 20px; 
+}
+
+.social-media-login {
+  margin-top:40px;
 }

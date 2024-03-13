@@ -13,8 +13,9 @@ function Login() {
             <div class="greeting">Hello, Again!</div>
             <div class="greeting-subtext">Login to your account</div>
           </div>
-          <div class="text-box">right side</div>
-          <div class="text-box">right side</div>
+        
+          <input class="text-box" />
+          <input class="text-box" />
           <div class="forgot-password">Forgot Password?</div>  
 
           <div class="login-button">Login</div>

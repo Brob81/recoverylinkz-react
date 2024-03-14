@@ -19,8 +19,8 @@ function Login() {
             <input class="text-box" />
           </div>
           <div class="text-box-container">
-            <div class="text-box-title">Password</div>
-            <input class="text-box" />
+            <div class="text-box-title" >Password</div>
+            <input class="text-box" type="password"/>
           </div>
           <div class="forgot-password">Forgot Password?</div>  
 

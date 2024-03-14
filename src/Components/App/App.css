@@ -85,21 +85,27 @@
 
 .text-box-title {
   position: absolute;
-  top: -12px; 
+  top: -14px; 
   left: 10px; 
   display: inline-block;
   background-color: #fff;
   padding: 5px; 
+  color: #676D7C;
+  font-weight: bold;
 }
 
 .text-box {
   width: 100%; 
   padding-top: 25px;
   padding-bottom: 25px;
+  text-indent: 25px;
   border: 2px solid silver;
   border-radius: 8px;
   border-color: #9D9DF8;
   margin-bottom: 30px;
+  font-size: 120%;
+  color: #676D7C;
+  
 }
 
 

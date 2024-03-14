@@ -71,14 +71,14 @@
   font-weight: bold;
 }
 .forgot-password {
+  margin-top: -10px; 
   text-align: right;
-  width: 55%; 
+  width: 68%; 
   color: #5e5e9f;
-  font-weight: bold;
 }
 
 .text-box-container {
-  width: 55%;
+  width: 68%;
   position: relative;
   text-align: left;
 }
@@ -108,12 +108,10 @@
   
 }
 
-
-
 .login-button {
   color: #fff;
   margin-top: 40px;
-  width: 55%; 
+  width: 69%; 
   padding-top: 25px;
   padding-bottom: 25px;
   border-radius: 8px;
